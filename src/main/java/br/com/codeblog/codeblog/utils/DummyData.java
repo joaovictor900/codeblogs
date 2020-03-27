@@ -18,7 +18,7 @@ public class DummyData {
 	@Autowired
 	CodeBlogRepository codeBlogRepository;
 	
-	@PostConstruct
+	//@PostConstruct
 	public void sevePost() {
 		
 		List<Post> postList = new ArrayList<>();
