@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html xmlns:th="http://thymeleaf.org">
 <head>
-    <meta charset="UTF-8" />
-    <title>CodeBlog Index</title>
+	<meta charset="UTF-8">
+	<title>CodeBlog's</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World</h1>
+	<header>
+		<nav class="navbar navbar-dark bg-dark">
+ 			<span class="navbar-brand mb-0 h1" style="font-weight: bold;">CodeBlog's</span>
+		</nav>		
+	</header>
+
+	<section style="padding-top: 30px;">
+		<div class="container" style="width: 100%; padding-bottom: 30px; text-align: center;">
+		<img src="img/warning.png" alt="some text" width=170 height=170>
+			<p style="color: #525252; font-family: arial;">Se você me conhece sabe que pode confiar e clicar no botão à baixo para aproveitar essa aplicação super gênial e complexa, só que não hahaha. Se não nem clique </p>	    	
+	    	<a href="/posts" class="btn btn-danger" role="button" style="margin-top: 10px;">Ir para página de Posts</a>
+		</div>
+	</section>
 </body>
 </html>
